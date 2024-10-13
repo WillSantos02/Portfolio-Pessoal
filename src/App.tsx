@@ -1,10 +1,11 @@
 import "./App.css";
+import Home from "./components/Home";
 
 function App() {
   return (
-    <>
-      <h1>Olá Mundo</h1>
-    </>
+    <div className="w-full h-screen px-[189px]">
+      <Home />
+    </div>
   );
 }
 
