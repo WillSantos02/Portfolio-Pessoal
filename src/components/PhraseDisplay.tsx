@@ -1,3 +1,5 @@
+import styles from 'PhraseDisplay.module.scss'
+
 function PhraseDisplay() {
   return (
     <div className="container flex flex-col items-center">
