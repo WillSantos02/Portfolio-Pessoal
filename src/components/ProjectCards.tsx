@@ -4,7 +4,7 @@ import roletaDosCasaisLogo from "../assets/12102024_roleta_icon.svg";
 function ProjectCards() {
   return (
     <div className="container flex flex-row justify-center items-center mt-[48px] gap-[40px]">
-      <div className="container flex flex-row w-[413px] h-[148px] border rounded-[8px] border-[#F9FEFF]/[.25] shadow-[5px_5px_10px_2.5px_rgba(249,254,255,0.25)] cursor-pointer hover:border-[#F9FEFF]">
+      <div className="container flex flex-row w-[413px] h-[148px] border rounded-[8px] border-[#F9FEFF]/[.25] shadow-[5px_5px_10px_2.5px_rgba(0,0,0,0.55)] cursor-pointer hover:border-[#000000]">
         <div className="mt-auto mb-auto ml-[38px]">
           <img
             src={odontoAgenda}
@@ -27,7 +27,7 @@ function ProjectCards() {
         </div>
       </div>
 
-      <div className="container flex flex-row w-[413px] h-[148px] border rounded-[8px] border-[#F9FEFF]/[.25] shadow-[5px_5px_10px_2.5px_rgba(249,254,255,0.25)] cursor-pointer hover:border-[#F9FEFF]">
+      <div className="container flex flex-row w-[413px] h-[148px] border rounded-[8px] border-[#F9FEFF]/[.25] shadow-[5px_5px_10px_2.5px_rgba(0,0,0,0.55)] cursor-pointer hover:border-[#000000]">
         <div className="mt-auto mb-auto ml-[38px]">
           <img
             src={roletaDosCasaisLogo}
